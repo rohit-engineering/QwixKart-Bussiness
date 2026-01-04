@@ -1,0 +1,2 @@
+- [x] Change table header from "Stock" to "Variants"
+- [x] Replace stock quantity td with variant summary td
