@@ -10,9 +10,7 @@ const routes = [
     path: '/',
     component: () => import('@/components/AppLayout.vue'),
     children: [
-      { path: '', redirect: '/dashboard' },
-
-      { path: 'dashboard', component: () => import('@/pages/Dashboard.vue') },
+      { path: '', redirect: '/orders' },
 
       { path: 'products', component: () => import('@/pages/Products.vue') },
 
@@ -25,7 +23,6 @@ const routes = [
       },
 
       { path: 'orders', component: () => import('@/pages/Orders.vue') },
-      { path: 'payments', component: () => import('@/pages/Payments.vue') },
       { path: 'users', component: () => import('@/pages/Users.vue') },
       { path: 'banners', component: () => import('@/pages/Banners.vue') },
       { path: 'adminnotifications', component: () => import('@/pages/AdminNotifications.vue') },

@@ -75,10 +75,8 @@ watch(mobile, (isMobile) => {
       <!-- Nav -->
        <v-app-bar-nav-icon @click="toggleSidebar" />
       <v-list nav density="compact">
-        <v-list-item to="/dashboard" prepend-icon="mdi-view-dashboard" title="Dashboard" />
         <v-list-item to="/products" prepend-icon="mdi-package-variant" title="Products" />
         <v-list-item to="/orders" prepend-icon="mdi-receipt-text" title="Orders" />
-        <v-list-item to="/payments" prepend-icon="mdi-credit-card" title="Payments" />
         <v-list-item to="/adminnotifications" prepend-icon="mdi-email" title="Messages" />
         <v-list-item to="/adminsupport" prepend-icon="mdi-help-circle" title="Support" />
         <v-list-item to="/users" prepend-icon="mdi-account-group" title="Users" />
